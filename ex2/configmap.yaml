@@ -1,0 +1,8 @@
+# 1. configmap.yaml
+apiVersion: v1
+kind: 
+metadata:
+  name:
+data:
+  file-name: |
+    ##

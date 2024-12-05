@@ -1,0 +1,33 @@
+# 3. deployment.yaml
+apiVersion: apps/v1
+kind: 
+metadata:
+  name: 
+spec:
+  replicas:
+  selector:
+    matchLabels:
+  template:
+    metadata:
+      labels:
+    spec:
+      containers:
+      - name:
+        image:
+        ports:
+        - containerPort:
+        env:
+        - name:
+          valueFrom:
+            secretKeyRef:
+              name:
+              key:
+        - name:
+          value:
+        volumeMounts:
+        - name:
+          mountPath:
+      volumes:
+      - name:
+        configMap:
+          name:

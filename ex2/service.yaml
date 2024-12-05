@@ -1,0 +1,12 @@
+# 4. service.yaml
+apiVersion: v1
+kind: 
+metadata:
+  name:
+spec:
+  selector:
+  ports:
+  - port:
+    targetPort:
+    nodePort:
+  type:
