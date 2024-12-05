@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt upgrade -y
-sudo apt install curl
-sudo apt install vim
+sudo apt install curl -y
+sudo apt install vim -y
 sudo snap install microk8s --classic
 sudo snap alias microk8s.kubectl kubectl
 sudo snap alias microk8s.helm helm
